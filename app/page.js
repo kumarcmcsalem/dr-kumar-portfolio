@@ -230,7 +230,7 @@ export default function UltimateDrKumarPortfolio() {
                 <img
                   src="/images/profile.jpg"
                   alt="Dr Kumar"
-                  className="w-[420px] h-[560px] object-cover"
+                  className="w-[420px] h-[560px] object-cover object-top"
                 />
 
               </div>
