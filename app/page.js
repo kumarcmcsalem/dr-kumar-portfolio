@@ -91,7 +91,7 @@ const services = [
   },
   {
     icon: "👶",
-    title: "Pediatrics",
+    title: "Primary Care Pediatrics",
     description:
       "Primary pediatric care and preventive child healthcare.",
     color: "from-pink-400 to-purple-600"
@@ -131,7 +131,7 @@ export default function UltimateDrKumarPortfolio() {
             </h1>
 
             <p className="text-sm text-slate-400">
-              Consultant Physician
+              Senior Consultant Physician
             </p>
           </div>
 
@@ -182,15 +182,19 @@ export default function UltimateDrKumarPortfolio() {
             </h1>
 
             <h2 className="mt-6 text-3xl lg:text-4xl font-bold bg-gradient-to-r from-cyan-300 via-blue-400 to-emerald-300 text-transparent bg-clip-text">
-              Consultant Physician
+              Senior Consultant Physician
             </h2>
 
             <p className="mt-8 text-2xl text-slate-300 leading-relaxed">
-              Practicing for more than 15 years in
+              Practicing for more than
+              <span className="text-cyan-300 font-black"> 23 years </span>
+              in
               <span className="text-cyan-300 font-bold"> Family Medicine</span>,
               <span className="text-emerald-300 font-bold"> Diabetology</span>,
+              <span className="text-yellow-300 font-bold"> Geriatric Medicine</span>,
+              <span className="text-pink-300 font-bold"> Primary Care Pediatrics</span>,
               and
-              <span className="text-yellow-300 font-bold"> Geriatric Medicine</span>.
+              <span className="text-red-300 font-bold"> Emergency Medicine</span>.
             </p>
 
             <div className="mt-12 flex flex-wrap gap-5">
@@ -203,7 +207,7 @@ export default function UltimateDrKumarPortfolio() {
               </a>
 
               <a
-                href="/Dr_Kumar_CV.pdf"
+                href="/Dr_Kumar_J_Professional_Updated_CV.pdf"
                 download
                 className="px-10 py-5 rounded-3xl border border-white/20 backdrop-blur-xl font-bold text-xl hover:bg-white/10 transition-all duration-500"
               >
@@ -247,7 +251,7 @@ export default function UltimateDrKumarPortfolio() {
           <div className="rounded-[35px] p-10 bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-500/20 backdrop-blur-xl text-center">
 
             <h2 className="text-6xl font-black text-cyan-300 animate-pulse">
-              15+
+              23+
             </h2>
 
             <p className="mt-4 text-2xl text-slate-300">
@@ -295,7 +299,6 @@ export default function UltimateDrKumarPortfolio() {
         </div>
 
       </section>
-
       {/* QUALIFICATIONS */}
       <section id="qualifications" className="py-24 px-6">
 
@@ -439,7 +442,6 @@ export default function UltimateDrKumarPortfolio() {
         </div>
 
       </section>
-
       {/* ABOUT */}
       <section className="py-24 px-6">
 
@@ -472,7 +474,7 @@ export default function UltimateDrKumarPortfolio() {
             </h2>
 
             <p className="mt-8 text-2xl text-slate-300 leading-relaxed">
-              Senior Consultant Physician with over 15 years of experience in Family Medicine, Diabetology and Geriatric Medicine.
+              Senior Consultant Physician with over 23 years of extensive clinical experience in Family Medicine, Diabetology, Geriatric Medicine, Emergency Medicine, Primary Care Pediatrics, Critical Care, Toxicology, Public Health and Preventive Healthcare.
             </p>
 
           </div>
@@ -481,7 +483,79 @@ export default function UltimateDrKumarPortfolio() {
 
       </section>
 
-      {/* CONTACT */}
+      {/* HOSPITAL EXPERIENCE */}
+      <section className="py-24 px-6">
+
+        <div className="max-w-7xl mx-auto">
+
+          <div className="text-center">
+
+            <h2 className="text-6xl font-black bg-gradient-to-r from-cyan-300 to-emerald-300 text-transparent bg-clip-text">
+              Hospital Experience
+            </h2>
+
+            <p className="mt-6 text-2xl text-slate-400">
+              Clinical Practice • ICU • Emergency Medicine • Public Health
+            </p>
+
+          </div>
+
+          <div className="mt-20 grid md:grid-cols-2 gap-10">
+
+            <div className="rounded-[40px] p-10 bg-white/5 border border-white/10 backdrop-blur-2xl">
+
+              <h3 className="text-3xl font-black text-cyan-300">
+                Praanav Hospital, Salem
+              </h3>
+
+              <p className="mt-6 text-xl text-slate-300 leading-relaxed">
+                Cardiac ICU & IMCU experience with extensive exposure to emergency medicine, critical care and acute cardiac management.
+              </p>
+
+            </div>
+
+            <div className="rounded-[40px] p-10 bg-white/5 border border-white/10 backdrop-blur-2xl">
+
+              <h3 className="text-3xl font-black text-emerald-300">
+                Government Hospital Service
+              </h3>
+
+              <p className="mt-6 text-xl text-slate-300 leading-relaxed">
+                Clinical service experience in Tiruvannamalai District Government Hospitals including emergency care and public healthcare systems.
+              </p>
+
+            </div>
+
+            <div className="rounded-[40px] p-10 bg-white/5 border border-white/10 backdrop-blur-2xl">
+
+              <h3 className="text-3xl font-black text-yellow-300">
+                Tamil Nadu Health Systems Project
+              </h3>
+
+              <p className="mt-6 text-xl text-slate-300 leading-relaxed">
+                Worked as Coordinator, Trainer and Manager in healthcare systems strengthening, preventive health and medical administration.
+              </p>
+
+            </div>
+
+            <div className="rounded-[40px] p-10 bg-white/5 border border-white/10 backdrop-blur-2xl">
+
+              <h3 className="text-3xl font-black text-pink-300">
+                Consultant Practice
+              </h3>
+
+              <p className="mt-6 text-xl text-slate-300 leading-relaxed">
+                Consultant in Family Medicine, Diabetology, Geriatrics, Primary Care Pediatrics and Emergency Medicine with expertise in chronic disease management and preventive healthcare.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+            {/* CONTACT */}
       <section id="contact" className="py-24 px-6">
 
         <div className="max-w-6xl mx-auto rounded-[50px] overflow-hidden border border-white/10 bg-gradient-to-br from-cyan-500/10 via-blue-500/10 to-emerald-500/10 backdrop-blur-2xl shadow-2xl">
@@ -491,6 +565,10 @@ export default function UltimateDrKumarPortfolio() {
             <h2 className="text-6xl font-black bg-gradient-to-r from-cyan-300 to-emerald-300 text-transparent bg-clip-text">
               Book Consultation
             </h2>
+
+            <p className="mt-6 text-2xl text-slate-300">
+              Family Medicine • Diabetology • Geriatric Medicine
+            </p>
 
             <div className="mt-12 flex flex-wrap justify-center gap-6">
 
@@ -510,38 +588,12 @@ export default function UltimateDrKumarPortfolio() {
                 💬 WhatsApp
               </a>
 
-            </div>
-
-            {/* APPOINTMENT FORM */}
-            <div className="mt-16 max-w-4xl mx-auto">
-
-              <div className="grid md:grid-cols-2 gap-6">
-
-                <input
-                  type="text"
-                  placeholder="Patient Name"
-                  className="px-6 py-5 rounded-2xl bg-black/30 border border-white/10 backdrop-blur-xl text-white outline-none"
-                />
-
-                <input
-                  type="tel"
-                  placeholder="Mobile Number"
-                  className="px-6 py-5 rounded-2xl bg-black/30 border border-white/10 backdrop-blur-xl text-white outline-none"
-                />
-
-              </div>
-
-              <textarea
-                placeholder="Health Concern / Appointment Details"
-                rows="5"
-                className="mt-6 w-full px-6 py-5 rounded-2xl bg-black/30 border border-white/10 backdrop-blur-xl text-white outline-none"
-              ></textarea>
-
-              <button
-                className="mt-8 px-10 py-5 rounded-3xl bg-gradient-to-r from-cyan-400 to-blue-600 text-xl font-black hover:scale-105 transition-all duration-500"
+              <a
+                href="mailto:kumarcmcsalem@gmail.com"
+                className="px-10 py-5 rounded-3xl border border-white/20 backdrop-blur-xl text-xl font-black hover:bg-white/10 transition-all duration-500"
               >
-                Book Appointment
-              </button>
+                ✉ Email
+              </a>
 
             </div>
 
@@ -582,6 +634,10 @@ export default function UltimateDrKumarPortfolio() {
 
             <p className="text-white font-black text-lg">
               WhatsApp Consultation
+            </p>
+
+            <p className="text-green-100 text-sm">
+              Chat with Dr. Kumar
             </p>
 
           </div>
