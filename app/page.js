@@ -263,7 +263,7 @@ export default function UltimateDrKumarPortfolio() {
           <div className="rounded-[35px] p-10 bg-gradient-to-br from-emerald-500/10 to-green-500/10 border border-emerald-500/20 backdrop-blur-xl text-center">
 
             <h2 className="text-6xl font-black text-emerald-300 animate-pulse">
-              10K+
+              1000K+
             </h2>
 
             <p className="mt-4 text-2xl text-slate-300">
