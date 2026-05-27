@@ -33,7 +33,7 @@ export const metadata = {
   authors: [{ name: "Dr Kumar J" }],
 
   verification: {
-    google: "googlebb2d89a91cb3e6f7",
+    google: "zPRPk4l9YE8n6x7hJR8xkjH-CFZHbgfUEeAmZsjMXYM",
   },
 
   openGraph: {
