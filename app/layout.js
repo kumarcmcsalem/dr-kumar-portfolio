@@ -1,7 +1,45 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
+const export const metadata = {
+  title: "Dr Kumar J | Family Physician | Diabetology | Geriatrics",
+  
+  description:
+    "Dr Kumar J is a Senior Consultant Physician with 23+ years of experience in Family Medicine, Diabetology, Geriatric Medicine, Emergency Medicine and Preventive Healthcare.",
+
+  keywords: [
+    "Dr Kumar J",
+    "Family Physician",
+    "Diabetologist",
+    "Geriatric Physician",
+    "Emergency Medicine",
+    "Gobichettipalayam doctor",
+    "Tamil Nadu physician",
+    "Best diabetologist",
+    "Senior consultant physician",
+    "Preventive healthcare"
+  ],
+
+  authors: [{ name: "Dr Kumar J" }],
+
+  openGraph: {
+    title: "Dr Kumar J Professional Medical Website",
+    description:
+      "Family Medicine • Diabetology • Geriatric Medicine • Emergency Medicine",
+    url: "https://dr-kumar-jagannathan.vercel.app",
+    siteName: "Dr Kumar J",
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
